@@ -4,24 +4,24 @@
     margin: 0;
 }
 html {
-    background-color: #333232;
+    background-color: white;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: white;
+    color: rgb(39, 38, 38);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 #container {
     height: 200px;
-    width: 500px;
-    background-color: #F5E4C3;
+    width: 450px;
+    background-color: #33cef5;
     margin: 0 auto;
-    border: 5px solid #88B169;
+    border: 2px solid #6c3cf3;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -90,6 +90,7 @@ p {
 }
 .btn:hover {
     cursor: pointer;
+    color: tomato;
 }
 #start {
     grid-area: 3 / 2 / 3 / 2;
